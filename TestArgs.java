@@ -13,6 +13,7 @@ public class TestArgs {
               "Usage: java Test \"n1\" \"op\" \"n2\"");
             System.exit(-1);
     } 
+    //i changed!
     double d1 = Double.parseDouble(args[0]);
     double d2 = Double.parseDouble(args[2]);
     double d = 0;
